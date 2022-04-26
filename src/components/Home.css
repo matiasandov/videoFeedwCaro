@@ -1,0 +1,19 @@
+.header {
+    height: 10vh;
+    background-color: blanchedalmond;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.category-inner-circle {
+    width: 200px;
+    height: 100px;
+    background: darkorange;
+    /* esto lo hace circulo 
+    border-radius: 50%;
+    border: 2px solid white;*/
+}
+
+.category-outer-circle {
+    width: 115px;
+    height: 115px;
+}
