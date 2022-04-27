@@ -24,7 +24,7 @@ export default function Home({data}) {
                     <div className='font-bold'>{renderItem.duration}</div>
                    
                     <div className='row'>
-                        <i className="material-icons">star</i>
+                        <i className="material-icons text-4xl">{renderItem.stars}</i>
                         <p className='font-bold'>{renderItem.rating}</p>
                     </div>
 

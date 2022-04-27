@@ -182,7 +182,7 @@ class Movies extends Component {
          //y este genre tiene un id (lo cual signifcaria que es un genre diferente a All Genres)
          selectedGenre && selectedGenre._id
          //se filtraran las peliculas con el id igual al del genero
-         ? allVideos.filter(m => m.genreId === selectedGenre._id )
+         ? allVideos.filter(movie => movie.tags.find( genre => genre === selectedGenre._id))
          //si no es True que el genre seleccionado tiene un id, filtered = allMovies, o sea ALL GENRES
          : allVideos;
 
