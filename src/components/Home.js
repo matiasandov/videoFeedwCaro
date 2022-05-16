@@ -6,7 +6,7 @@ import 'material-icons/iconfont/material-icons.css';
 //import searchBar from "./components/searchBar";
 //import searchBar from './searchBar';
 
-export default function Home({data}) {
+export default function Home({ data }) {
     function renderCategoryItem() {
 
         return data.map((renderItem) => {
@@ -21,13 +21,13 @@ export default function Home({data}) {
                     </div>
 
                     {/* hacer que se vean separados las cosas */}
-                    <div className=' '>
+                    <div>
                         <div className='font-bold'>{renderItem.name} </div>
-                       
+
                         <div className='font-bold'>{renderItem.duration}</div>
                     </div>
-                    
-                   
+
+
                     <div className='flex justify-center items-center'>
                         <i className="material-icons text-4xl">{renderItem.stars}</i>
                         <p className='font-bold'>{renderItem.rating}</p>
@@ -46,7 +46,7 @@ export default function Home({data}) {
 
     return (
         <div className='main-background'>
-            
+
             <div className="header flex justify-center items-center text-3xl font-bold syncall-header" > SYNCALL </div>
             <div className='grid grid-cols-3'>
                 {renderCategoryItem()}
