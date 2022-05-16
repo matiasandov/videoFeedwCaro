@@ -7,12 +7,28 @@
 .category-inner-circle {
     width: 200px;
     height: 100px;
-    background: darkorange;
+    background: #8C3F51;
+    border-radius: 10%;
+    
     /* esto lo hace circulo 
     border-radius: 50%;
     border: 2px solid white;*/
 }
 
+.syncall-header{
+    background: #231433;
+    color: white;
+}
+
+.main-background{
+    background: #673047;
+}
+/*
+.social h2 {
+  color: pink;
+  font-size: 14px;
+}
+*/
 .category-outer-circle {
     width: 115px;
     height: 115px;

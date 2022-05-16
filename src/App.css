@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  color: white;
+  /*Esto deberia cambiar*/
+  background-color: #231433;
+ font-family: inter;
 }
 
 .App-logo {
