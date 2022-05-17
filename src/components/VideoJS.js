@@ -1,6 +1,6 @@
 import React from "react";
 import VideoPlayer from 'react-video-js-player';
-import testVideo from "../public/asItWas.mp4"
+import testVideo from "../assets/asItWas.mp4"
 
 const VideoJS = () => {
 
@@ -10,7 +10,7 @@ const VideoJS = () => {
 
     return (
         <div className="App">
-            <h1>Video Player</h1>
+            {/* <h1>Video Player</h1> */}
             <VideoPlayer
                 src={videoSrc}
                 poster={poster}

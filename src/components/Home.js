@@ -2,6 +2,7 @@ import React from 'react';
 import "./Home.css";
 //import videoItems from '../services/videos';
 import 'material-icons/iconfont/material-icons.css';
+import VideoJS from './VideoJS';
 
 //import searchBar from "./components/searchBar";
 //import searchBar from './searchBar';
@@ -16,6 +17,9 @@ export default function Home({ data }) {
                     <div className='category-outer-circle'>
                         <div className='category-inner-circle flex justify-center items-center'>
                             <i className="material-icons text-4xl text-white">{renderItem.iconName}</i>
+                        </div>
+                        <div>
+                            <VideoJS></VideoJS>
                         </div>
 
                     </div>
